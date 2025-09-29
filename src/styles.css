@@ -240,6 +240,29 @@ section {
   font-size: 24px;
 }
 
+/* Instagram posts styling  */
+.grid-instagram-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 40px;
+}
+
+.instagram-media {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: auto !important;
+  margin: 0 auto !important;
+  height: 450px !important;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-grid {
+  text-align: center;
+  margin: 20px;
+}
+
 /* Media queries for responsiveness */
 
 @media (max-width: 900px) {
@@ -300,5 +323,8 @@ section {
   }
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .grid-instagram-posts {
+    grid-template-columns: 1fr;
   }
 }
