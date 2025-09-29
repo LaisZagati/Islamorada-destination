@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
@@ -25,13 +25,16 @@
         <h2>THAT EVERY TOURIST SHOULD VISIT</h2>
         <a href="#">Learn more</a>
       </header>
+
       <main>
+        <!-- Why Islamorada Section -->
         <section class="grid-2-columns">
           <div>
             <img
               src="../images/dock.png"
               alt="Dock view in Islamorada"
               width="500px"
+              class="img-dock"
             />
           </div>
           <div>
@@ -48,13 +51,142 @@
               parts of six islands and is renowned for its vibrant coral reefs,
               offering opportunities for snorkeling and scuba diving. Beyond its
               natural beauty, Islamorada is also known as the "Sportfishing
-              Capital of the World".
+              Capital of the World."
             </p>
           </div>
         </section>
+
+        <!-- Top Things to Do -->
+        <section class="secondary-section">
+          <h2>TOP THINGS TO DO IN ISLAMORADA</h2>
+          <h3>THREE MUST VISIT SPOTS</h3>
+
+          <div class="grid grid-3-columns-main">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="../images/rain-barrel.png"
+                  alt="Rain Barrel Village"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="card-body">
+                <h4>Rain Barrel Village</h4>
+                <p>
+                  Snap a selfie with Betsy the Lobster, then explore tropical
+                  gardens and browse studios filled with handmade crafts, art,
+                  beachwear, home goods, and Keys-inspired souvenirs.
+                </p>
+                <h5>Address:</h5>
+                <p>86700 Overseas Hwy, Islamorada, FL 33036</p>
+                <h5>What it's famous for</h5>
+                <p>
+                  Rain Barrel Village is famous for being a vibrant open-air
+                  shopping destination that perfectly captures the quirky,
+                  laid-back vibe of the Florida Keys. Visitors love snapping a
+                  selfie with the iconic “Big Betsy” lobster sculpture before
+                  wandering through tropical gardens and exploring unique
+                  studios filled with handmade crafts, original artwork, resort
+                  wear, home goods, and Florida Keys-inspired souvenirs.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://rainbarrelvillage.com/"
+                  target="_blank"
+                  class="btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="../images/founders.png"
+                  alt="Founders Park"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="card-body">
+                <h4>Founders Park</h4>
+                <p>
+                  Founders Park in Islamorada is a 45-acre community space with
+                  a beach, Olympic-size pool, tennis and pickleball courts, dog
+                  park, fitness trails, and picnic areas overlooking Florida
+                  Bay. The park hosts concerts, festivals, sports, and family
+                  activities year-round. It’s free for residents, with day
+                  passes available for visitors.
+                </p>
+
+                <h5>Address:</h5>
+                <p>87000 Overseas Hwy, Islamorada, FL 33036</p>
+                <h5>What it's famous for</h5>
+                <p>
+                  Founders Park is known for its Olympic-size pool, splash pad,
+                  beach, tennis and pickleball courts, sports fields, and picnic
+                  areas. It also hosts community events and family activities
+                  along scenic Florida Bay.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://www.islamorada.fl.us/249/Founders-Park"
+                  target="_blank"
+                  class="btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="../images/bagel.png"
+                  alt="Marathon Bagel Place"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="card-body">
+                <h4>Marathon Bagel at Islamorada</h4>
+                <p>
+                  Marathon Bagel Co. is famous for authentic New York-style
+                  bagels baked fresh daily, with a variety of sweet and savory
+                  cream cheeses. Visitors love their Nova Lox, Whitefish Salad,
+                  and Chorizo, all served in a friendly, welcoming atmosphere
+                  that brings a true taste of New York to the Florida Keys.
+                </p>
+
+                <h5>Address:</h5>
+                <p>86701 Overseas Hwy, Islamorada, FL 33036</p>
+                <h5>What it's famous for</h5>
+                <p>
+                  Marathon Bagel Co. is known for authentic New York/New
+                  Jersey-style bagels, baked fresh daily with a variety of sweet
+                  and savory cream cheeses. They’re celebrated for high-quality
+                  ingredients. atmosphere, offering a true taste of New York in
+                  the Florida Keys.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://marathonbagelco.com/"
+                  target="_blank"
+                  class="btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
+      <!-- Footer -->
       <footer>
-        <section class="grid-3-columns">
+        <section class="grid-3-columns-footer">
           <div>
             <h3>More about Islamorada</h3>
             <ul>
@@ -81,28 +213,28 @@
               </li>
             </ul>
           </div>
+
           <div>
             <h3>About Florida Keys</h3>
             <p>
               The Florida Keys are a string of tropical islands stretching about
-              120 miles off the southern tip of the U.S. state of Florida,
-              between the Atlantic Ocean and Gulf of Mexico. They’re known as a
-              destination for fishing, boating, snorkeling and scuba diving.
+              120 miles off the southern tip of Florida, between the Atlantic
+              Ocean and Gulf of Mexico. They’re known for fishing, boating,
+              snorkeling, and diving.
             </p>
           </div>
+
           <div>
             <h3>About this website</h3>
             <p>
               I created this page as part of a project for SheCodes Responsive
-              to develop my coding skills.
-              <br />
+              to develop my coding skills. <br />
               This project was coded by Lais Zagati and is
               <a
                 href="https://github.com/LaisZagati/Islamorada-destination"
                 target="_blank"
-              >
-                open sourced</a
-              >
+                >open sourced</a
+              >.
             </p>
           </div>
         </section>
