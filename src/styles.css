@@ -85,6 +85,7 @@ main p {
   grid-template-columns: 2fr 2fr;
   grid-gap: 64px;
   align-items: center;
+  margin: 30px;
 }
 
 .grid-3-columns-main {
